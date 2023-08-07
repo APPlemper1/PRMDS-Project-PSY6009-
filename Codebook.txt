@@ -55,8 +55,10 @@ DATA_EXPIRED, Not in paid work (e.g. homemaker', 'retired or disabled) and Other
 Additional comments: 
 
 The first part of the script contains data from a screening phase of the study. Participants were screened for cut-off scores greater than or equal to 11 
-and those who met these criteria were contacted by prolific to take part in the main experiment. 
-The remained of the script uses data which was sourced from this second phase of the study after this process had been completed. 
+and those who met these criteria were contacted by prolific to take part in the main experiment.The spreadsheet marked eligible 11 contains the scores and 
+prolific ID’s for all of the eligible participants. The remained of the script uses data which was sourced from this second phase of
+the study after the screeening process had been completed. 
+
 The raw data found in the data file has been edited and only participant IP addresses have been removed. 
 No other alterations have been made to the data downloaded from Prolific. 
 
