@@ -1,0 +1,62 @@
+Codebook
+
+Can psychological inoculation improve the effectiveness of a male-sensitive brochure for psychological help-seeking?
+
+Data origins: 
+
+The data used in this analysis was collected online via prolific as part of my MSc psychological research methods with data science final project. 
+Participants were exposed to two behaviour change interventions designed to improve attitudes towards, and self-stigma around, psychological help-seeking.
+ 
+Measures and variable names: 
+
+The final data frame produced by this code (called “mdf3”) contains 16 columns which refer to variables used in the analysis, 
+demographic data and transformed variables. A breakdown of these can be found below. 
+
+"PROLIFIC_PID" is the unique ID assigned to participants from Prolific. 
+
+"MGSQ" stands for the male gender scripts questionnaire, (Seager, Sullivan, & Barry, 2014).
+ This is a psychometric scale designed to measure adherence to male gender scripts and was used to assess levels of masculinity. 
+The range of possible scores is between 6 and 60 and higher values indicate higher adherence to masculinity. 
+
+"ATSPPH" stands for Attitudes toward seeking professional psychological help scale short form. This is a psychometric scale designed to measure 
+attitudes towards seeking psychological help. The range of possible scores is between 0 and 30 and highervalues indicate more supportive attitudes towards 
+receiving psychological help.
+
+"SSOSH" stands for Self-Stigma of Seeking Help scale. This is a psychometric scale designed to measure self-stigma around seeking psychological help. 
+The range of possible scores is between 0 and 30 and higher values indicate greater self-stigma around receiving psychological help.
+
+"Condition" contains qualitative data on which condition participants were assigned to, with levels PI (received psychological inoculation only), 
+brochure (revived male sensitive help seeking brochure only), PI+brochure (received both treatments) and Cont (Control group who received neither treatment). 
+
+"Comp_check" displays participants' total scores over 3 competition check questions for the brochure condition. Possible scores range from 0 to 3.  
+
+"PI" is the dummy coded variable for the PI condition, with levels 1 (received) and 0 (did not receive).
+
+ "Brochure" is the dummy coded variable for the brochure condition, with levels 1 (received) and 0 (did not receive).
+
+"PHQ_9" stands for the Patient Health Questionnaire-9. This is a psychometric scale designed to measure levels of depression. 
+The range of possible scores is between 0 and 30 and higher values indicate greater levels of depression.
+
+"Age" is the age of each participant.      
+
+"Ethnicity" is the ethnicity of each participant, with levels White, Asian, Other, Mixed and Black.
+
+"Employment.status" is the employment status of each participant, with levels Part-Time,Full-Time, Unemployed (and job seeking),
+DATA_EXPIRED, Not in paid work (e.g. homemaker', 'retired or disabled) and Other. 
+         
+"L_ATSPPH" is the log-transformed ATSPPH variable. 
+
+"S_ATSPPH" is the square-transformed ATSPPH variable.  
+
+  "L_SSOSH” is the log-transformed SSOSH variable. 
+
+ "S_SSOSH" is the square-transformed SSOSH variable.
+
+Additional comments: 
+
+The first part of the script contains data from a screening phase of the study. Participants were screened for cut-off scores greater than or equal to 11 
+and those who met these criteria were contacted by prolific to take part in the main experiment. 
+The remained of the script uses data which was sourced from this second phase of the study after this process had been completed. 
+The raw data found in the data file has been edited and only participant IP addresses have been removed. 
+No other alterations have been made to the data downloaded from Prolific. 
+
